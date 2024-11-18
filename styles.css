@@ -67,7 +67,7 @@ ul {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 120px;
     height: 40px;
 }
@@ -82,6 +82,7 @@ ul {
 .initial-content{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .initial-page {
@@ -89,4 +90,73 @@ ul {
     flex-direction: column;
     align-content: space-around;
     
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.random-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.random-items {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content:space-around;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+    background-color: white;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.info-subtext {
+    font-size :18px;
+    color: gray;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937;
+    width:1000px;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    width:450px;
 }
