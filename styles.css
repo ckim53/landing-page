@@ -139,6 +139,7 @@ ul {
     justify-content: center;
     background-color: #E5E7EB;
     padding: 40px;
+    margin-bottom: 50px;
 }
 
 .quote {
@@ -159,4 +160,57 @@ ul {
     font-weight: bold;
     font-size: 20px;
     width:450px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 1000px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.action-intro {
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.action {
+    font-size: 17px;
+    text-align: left;
+    width: 500px;
+    margin:0;
+}
+
+.signup-button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex:1;
 }
